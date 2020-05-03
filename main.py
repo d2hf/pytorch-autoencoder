@@ -3,6 +3,7 @@ import torch.nn as nn
 import torchvision
 from torchvision import transforms, datasets
 import torch.optim as optim
+from models import Net
 
 
 train = datasets.MNIST("", train= True, download= True,
